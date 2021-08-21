@@ -1,5 +1,5 @@
 letter = list(input())
-main = letter[0]
+main_word = letter[0]
 Dict = []
 num = int(input())
 for i in range(num):
@@ -7,5 +7,5 @@ for i in range(num):
 	if len(word) >= 4:
 		flag = [i in letter for i in word]
 		if False not in flag:
-			if main in word:
+			if main_word in word:
 				print(''.join(word))
