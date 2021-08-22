@@ -7,7 +7,7 @@ int main(void)
 	cin >> junctions >> switches;
 	if(switches != 0)
 	{
-		if(switches % 2 == 0 && junctions < switches)
+		if(switches % 2 == 0)
 		{
 			cout << "possible" << endl;
 		}else
